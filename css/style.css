@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: poppins;
+}
+
+.container{
+    margin: 300px 0;
+    height: 500px;
+    display: flex;
+    background-color: rgb(253, 254, 255);
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+
+.box{
+    height: 400px;
+    width: 20%;
+    border-radius: 20px;
+    border: solid white 0.3em;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgba(235, 235, 235, 0.97);
+    border-bottom: solid rgb(21, 237, 154) 10px;
+}
+
+.card-1{
+    background-color: orangered;
+    opacity: 90%;
+}
+
+.card-2{
+    background-color: rgb(8, 56, 143);
+    opacity: 90%;
+}
+
+
+
+.card-3{
+    background-color: rgba(146, 94, 195, 0.685);
+    opacity: 90%;
+}
+
+@media(max-width:850px){
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: smaller;
+    }
+    .box{
+        width: 80%;
+        font-size: 22px;
+    }
+
+
+}
